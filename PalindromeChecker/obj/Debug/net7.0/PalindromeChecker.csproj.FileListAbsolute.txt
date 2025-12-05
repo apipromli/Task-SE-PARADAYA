@@ -1,0 +1,15 @@
+D:\PARADAYA-SE\PalindromeChecker\bin\Debug\net7.0\PalindromeChecker.exe
+D:\PARADAYA-SE\PalindromeChecker\bin\Debug\net7.0\PalindromeChecker.deps.json
+D:\PARADAYA-SE\PalindromeChecker\bin\Debug\net7.0\PalindromeChecker.runtimeconfig.json
+D:\PARADAYA-SE\PalindromeChecker\bin\Debug\net7.0\PalindromeChecker.dll
+D:\PARADAYA-SE\PalindromeChecker\bin\Debug\net7.0\PalindromeChecker.pdb
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.csproj.AssemblyReference.cache
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.GeneratedMSBuildEditorConfig.editorconfig
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.AssemblyInfoInputs.cache
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.AssemblyInfo.cs
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.csproj.CoreCompileInputs.cache
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.dll
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\refint\PalindromeChecker.dll
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.pdb
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\PalindromeChecker.genruntimeconfig.cache
+D:\PARADAYA-SE\PalindromeChecker\obj\Debug\net7.0\ref\PalindromeChecker.dll
