@@ -1,0 +1,15 @@
+D:\PARADAYA-SE\c#\Latihan1\bin\Debug\net7.0\Latihan1.exe
+D:\PARADAYA-SE\c#\Latihan1\bin\Debug\net7.0\Latihan1.deps.json
+D:\PARADAYA-SE\c#\Latihan1\bin\Debug\net7.0\Latihan1.runtimeconfig.json
+D:\PARADAYA-SE\c#\Latihan1\bin\Debug\net7.0\Latihan1.dll
+D:\PARADAYA-SE\c#\Latihan1\bin\Debug\net7.0\Latihan1.pdb
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.csproj.AssemblyReference.cache
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.GeneratedMSBuildEditorConfig.editorconfig
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.AssemblyInfoInputs.cache
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.AssemblyInfo.cs
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.csproj.CoreCompileInputs.cache
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.dll
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\refint\Latihan1.dll
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.pdb
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\Latihan1.genruntimeconfig.cache
+D:\PARADAYA-SE\c#\Latihan1\obj\Debug\net7.0\ref\Latihan1.dll

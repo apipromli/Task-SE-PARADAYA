@@ -1,0 +1,15 @@
+D:\PARADAYA-SE\SumEvenNumber\bin\Debug\net7.0\SumEvenNumber.exe
+D:\PARADAYA-SE\SumEvenNumber\bin\Debug\net7.0\SumEvenNumber.deps.json
+D:\PARADAYA-SE\SumEvenNumber\bin\Debug\net7.0\SumEvenNumber.runtimeconfig.json
+D:\PARADAYA-SE\SumEvenNumber\bin\Debug\net7.0\SumEvenNumber.dll
+D:\PARADAYA-SE\SumEvenNumber\bin\Debug\net7.0\SumEvenNumber.pdb
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.csproj.AssemblyReference.cache
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.AssemblyInfoInputs.cache
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.AssemblyInfo.cs
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.csproj.CoreCompileInputs.cache
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.dll
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\refint\SumEvenNumber.dll
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.pdb
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\SumEvenNumber.genruntimeconfig.cache
+D:\PARADAYA-SE\SumEvenNumber\obj\Debug\net7.0\ref\SumEvenNumber.dll
