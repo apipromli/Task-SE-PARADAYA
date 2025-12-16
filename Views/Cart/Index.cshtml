@@ -1,0 +1,92 @@
+@model List<ECommerce.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container mt-5">
+
+    <h2 class="mb-4">🛒 Shopping Cart</h2>
+
+    <!-- Tombol kembali belanja -->
+    <div class="mb-3">
+        <a asp-controller="Customer" asp-action="Index" class="btn btn-outline-primary">
+            ← Lanjut Belanja
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            Keranjang belanja masih kosong.
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-body p-0">
+
+                <table class="table table-hover mb-0 align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Product</th>
+                            <th class="text-center">Qty</th>
+                            <th class="text-end">Price</th>
+                            <th class="text-end">Total</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Product.Name</td>
+
+                                <td class="text-center">
+                                    @item.Quantity
+                                </td>
+
+                                <td class="text-end">
+                                    Rp @item.Product.Price.ToString("N0")
+                                </td>
+
+                                <td class="text-end">
+                                    Rp @((item.Product.Price * item.Quantity).ToString("N0"))
+                                </td>
+
+                                <td class="text-center">
+                                    <a asp-action="Increase" asp-route-id="@item.Product.Id"
+                                class="btn btn-sm btn-success me-1">
+                                        +
+                                    </a>
+
+                                    <a asp-action="Decrease" asp-route-id="@item.Product.Id" class="btn btn-sm btn-warning">
+                                        −
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <!-- TOTAL -->
+        <div class="d-flex justify-content-end mt-3">
+            <div class="card shadow-sm p-3">
+                <h5 class="mb-0">
+                    Total:
+                    <strong>
+                        Rp @Model.Sum(x => x.Product.Price * x.Quantity).ToString("N0")
+                    </strong>
+                </h5>
+                <a asp-controller="Checkout" asp-action="Index" class="btn btn-primary btn-lg">
+                    Checkout
+                </a>
+
+            </div>
+        </div>
+    }
+</div>

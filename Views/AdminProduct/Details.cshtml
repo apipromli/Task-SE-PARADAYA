@@ -1,0 +1,25 @@
+@model ECommerce.Models.Product
+
+<h2>Detail Produk</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Nama Produk</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Harga</th>
+        <td>Rp @Model.Price.ToString("N0")</td>
+    </tr>
+    <tr>
+        <th>Stok</th>
+        <td>@Model.Stock</td>
+    </tr>
+    <tr>
+        <th>Deskripsi</th>
+        <td>@Model.Description</td>
+    </tr>
+</table>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Kembali</a>

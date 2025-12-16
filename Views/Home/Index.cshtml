@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+
+    <!-- HERO SECTION -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Welcome to E-Commerce</h1>
+        <p class="lead text-muted">
+            Temukan produk terbaik dengan harga terbaik untuk kebutuhanmu
+        </p>
+
+        <a asp-controller="Customer" asp-action="Index" class="btn btn-primary btn-lg mt-3">
+            🛒 Mulai Belanja
+        </a>
+    </div>
+
+    <!-- INFO SECTION -->
+    <div class="row text-center">
+        <div class="col-md-4">
+            <h4>Produk Berkualitas</h4>
+            <p class="text-muted">
+                Semua produk dipilih dengan kualitas terbaik
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h4>Harga Terjangkau</h4>
+            <p class="text-muted">
+                Harga bersaing dan transparan
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h4>Belanja Mudah</h4>
+            <p class="text-muted">
+                Tambah ke keranjang dan checkout dengan cepat
+            </p>
+        </div>
+    </div>
+
+</div>

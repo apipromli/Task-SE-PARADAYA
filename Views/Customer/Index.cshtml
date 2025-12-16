@@ -1,0 +1,27 @@
+@model IEnumerable<ECommerce.Models.Product>
+
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<h2 class="mb-4">Our Products</h2>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text">
+                        Price: <strong>Rp @item.Price.ToString("N0")</strong>
+                    </p>
+
+                    <a asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" class="btn btn-success">
+                        Masukkan Keranjang
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
