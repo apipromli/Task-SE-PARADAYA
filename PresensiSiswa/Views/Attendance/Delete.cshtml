@@ -1,0 +1,98 @@
+@model PresensiSiswa.Models.Attendance
+
+<style>
+    .delete-container {
+        max-width: 450px;
+        margin: 60px auto;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+        color: #dc2626;
+        margin-bottom: 10px;
+    }
+
+    .warning-text {
+        color: #374151;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+
+    .info-list li {
+        padding: 8px 0;
+        border-bottom: 1px solid #e5e7eb;
+        color: #374151;
+    }
+
+    .info-list b {
+        color: #111827;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btn {
+        flex: 1;
+        padding: 12px;
+        border-radius: 6px;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .btn-delete {
+        background-color: #dc2626;
+        color: white;
+    }
+
+    .btn-delete:hover {
+        background-color: #b91c1c;
+    }
+
+    .btn-cancel {
+        background-color: #e5e7eb;
+        color: #374151;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .btn-cancel:hover {
+        background-color: #d1d5db;
+    }
+</style>
+
+<div class="delete-container">
+    <h2>⚠️ Hapus Presensi</h2>
+    <p class="warning-text">Apakah kamu yakin ingin menghapus data berikut?</p>
+
+    <ul class="info-list">
+        <li>Nama: <b>@Model.Nama</b></li>
+        <li>Tanggal: <b>@Model.Tanggal.ToString("dd-MM-yyyy")</b></li>
+        <li>Status: <b>@Model.Status</b></li>
+    </ul>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+
+        <div class="btn-group">
+            <button type="submit" class="btn btn-delete">🗑️ Ya, Hapus</button>
+            <a asp-action="Index" class="btn btn-cancel">Batal</a>
+        </div>
+    </form>
+</div>
